@@ -14,23 +14,11 @@ public class FacebookLoginPage {
 	@FindBy(id="u_0_n")
 	public WebElement loginButton;
 	
-	//@FindBy(linkText="Get Facebook Mobile" )
-	//public WebElement clickFacebookMobileButton;
-	
-	public void enterLoginEmail(String email){
+	public void login(String email, String password){
 		loginEmailField.sendKeys(email);
-	}
-	
-	public void enterLoginPassword(String password){
 		loginPasswordField.sendKeys(password);
-	}
-	
-	public void clickLoginButton(){
 		loginButton.click();
 	}
 	
-	//public void clickFacebookMobileButton(){
-		//clickFacebookMobileButton.click();
-	//}
 
 }

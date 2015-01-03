@@ -26,7 +26,8 @@ public class BaseClass {
 		driver.get("https://www.facebook.com/");
 		facebookloginpage = PageFactory.initElements(driver, FacebookLoginPage.class);
 		homepage = PageFactory.initElements(driver, HomePage.class);
-		
+		profilepage = PageFactory.initElements(driver, ProfilePage.class);
+		facebookloginpage.login("mdjamaddar@gmail.com", "Mdjamaddar17");
 	}
 	
 	@AfterClass 
