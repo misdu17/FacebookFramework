@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 
 import pages.FacebookLoginPage;
 import pages.HomePage;
+import pages.MenuPage;
 import pages.ProfilePage;
 
 
@@ -18,6 +19,7 @@ public class BaseClass {
 	public FacebookLoginPage facebookloginpage;
 	public HomePage homepage;
 	public ProfilePage profilepage;
+	public MenuPage menupage;
 	
 	@BeforeClass 
 	public void setup(){
@@ -27,13 +29,14 @@ public class BaseClass {
 		facebookloginpage = PageFactory.initElements(driver, FacebookLoginPage.class);
 		homepage = PageFactory.initElements(driver, HomePage.class);
 		profilepage = PageFactory.initElements(driver, ProfilePage.class);
+		menupage = PageFactory.initElements(driver, MenuPage.class);
 		facebookloginpage.login("mdjamaddar@gmail.com", "Mdjamaddar17");
 	}
 	
 	@AfterClass 
 	public void tearDown(){
-		homepage.clickUserNavigationLabel();
-		homepage.clickLogoutButton();
+		menupage.clickUserNavigationLabel();
+		menupage.clickLogoutButton();
 		driver.quit();
 	}
 

@@ -14,7 +14,7 @@ public class RegressionTest extends BaseClass{
 	
 	@Test
 	public void testProfilePage(){
-		homepage.clickProfilePage();
+		menupage.clickProfilePage();
 		profilepage.postStatus("I am late today");
 		
 	}

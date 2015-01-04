@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41366" started-at="2015-01-03T20:54:02Z" finished-at="2015-01-03T20:54:43Z">
+  <suite name="Default suite" duration-ms="31353" started-at="2015-01-04T17:25:18Z" finished-at="2015-01-04T17:25:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41366" started-at="2015-01-03T20:54:02Z" finished-at="2015-01-03T20:54:43Z">
+    <test name="Default test" duration-ms="31353" started-at="2015-01-04T17:25:18Z" finished-at="2015-01-04T17:25:49Z">
       <class name="testCases.RegressionTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.RegressionTest@1c5d9084]" name="setup" is-config="true" duration-ms="15473" started-at="2015-01-03T15:54:02Z" finished-at="2015-01-03T15:54:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.RegressionTest@7b5a6029]" name="setup" is-config="true" duration-ms="15390" started-at="2015-01-04T12:25:18Z" finished-at="2015-01-04T12:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testFacebookLogin()[pri:0, instance:testCases.RegressionTest@1c5d9084]" name="testFacebookLogin" duration-ms="17581" started-at="2015-01-03T15:54:17Z" finished-at="2015-01-03T15:54:35Z">
+        <test-method status="PASS" signature="testFacebookLogin()[pri:0, instance:testCases.RegressionTest@7b5a6029]" name="testFacebookLogin" duration-ms="7187" started-at="2015-01-04T12:25:33Z" finished-at="2015-01-04T12:25:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFacebookLogin -->
-        <test-method status="PASS" signature="testProfilePage()[pri:0, instance:testCases.RegressionTest@1c5d9084]" name="testProfilePage" duration-ms="6907" started-at="2015-01-03T15:54:35Z" finished-at="2015-01-03T15:54:42Z">
+        <test-method status="PASS" signature="testProfilePage()[pri:0, instance:testCases.RegressionTest@7b5a6029]" name="testProfilePage" duration-ms="3261" started-at="2015-01-04T12:25:41Z" finished-at="2015-01-04T12:25:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProfilePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.RegressionTest@1c5d9084]" name="tearDown" is-config="true" duration-ms="1394" started-at="2015-01-03T15:54:42Z" finished-at="2015-01-03T15:54:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.RegressionTest@7b5a6029]" name="tearDown" is-config="true" duration-ms="5503" started-at="2015-01-04T12:25:44Z" finished-at="2015-01-04T12:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
