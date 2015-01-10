@@ -1,5 +1,6 @@
 package testCases;
 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,17 @@ public class RegressionTest extends BaseClass{
 	@Test
 	public void testProfilePage(){
 		menupage.clickProfilePage();
-		profilepage.postStatus("I am late today");
+		profilepage.postStatus("New start for testing");	
+	}
+	
+	@Test
+	public void testClickFacebookLogoButton(){
+		menupage.clickFacebookLogoButto();
+	}
+	
+	@Test
+	public void testSearchOnFacebook(){
+		menupage.searchOnFacebook("Kanchan Islam");
 		
 	}
 

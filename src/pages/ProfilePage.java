@@ -8,7 +8,7 @@ public class ProfilePage {
 	@FindBy(name = "xhpc_message")
 	public WebElement postMessageArea;
 
-	@FindBy(xpath = "//*[@id='u_jsonp_2_l']/div/div[6]/div/ul/li[2]/button")
+	@FindBy(xpath = "//button[@value='1']")
 	public WebElement postButton;
 
 	public void postStatus(String status) {
